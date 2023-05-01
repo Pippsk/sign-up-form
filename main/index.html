@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text_container">
+        <div class="wrapper">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      </div>
+
+      <div class="form_container">
+        <div class="trial">
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+
+        <form action="" class="form">
+
+        <div class="error">
+          <input type="text" id="first_name" placeholder="First Name">
+          <img src="images/icon-error.svg" alt="" class="error_img hidden image1">
+        </div>
+        <p class="error_msg hidden error1"><em>First Name cannot be empty</em></p>
+
+        <div class="error">
+          <input type="text" id="last_name" placeholder="Last Name">
+          <img src="images/icon-error.svg" alt="" class="error_img hidden image2">
+        </div>
+        <p class="error_msg hidden error2"><em>Last Name cannot be empty</em></p>
+
+        <div class="error">
+          <input type="email" id="email" placeholder="Email Address">
+          <img src="images/icon-error.svg" alt="" class=" error_img hidden image3">
+        </div>
+        <p class="error_msg hidden error3"><em>Looks like this is not an email</em></p>
+
+        <div class="error">
+          <input type="password" id="password" placeholder="Password">
+          <img src="images/icon-error.svg" alt="" class=" error_img hidden image4">
+        </div>
+        <p class="error_msg hidden error4"><em>Password cannot be empty</em></p>
+          <button type="submit">Claim your free trial</button>
+          <small>By clicking the button, you are
+            agreeing to our <span>Terms and Services</span></small>
+        </form>
+      </div>
+     
+
+
+
+      <script src="app.js"></script>
+  </body>
+</html>
